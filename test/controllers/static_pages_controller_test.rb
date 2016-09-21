@@ -11,4 +11,8 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+  test "should get about" do
+    get '/static_pages/about'
+    assert_response :success
+  end
 end
