@@ -23,7 +23,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -51,7 +51,7 @@ group :test do
   gem 'minitest-reporters', '1.0.5'
   gem 'mini_backtrace',     '0.1.3'
   gem 'guard-minitest',     '2.3.1'
-  
+
   # For using assert_template
   gem 'rails-controller-testing'
 end
@@ -63,4 +63,3 @@ group :production do
   gem 'pg', '~>0.18'
   gem 'rails_12factor', '0.0.2'
 end
-
