@@ -25,11 +25,18 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
+# Use faker
+gem 'faker',  '1.4.2'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
 # Use bootstrap
 gem 'bootstrap-sass',       '3.2.0.0'
+
+# Pagenate
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
